@@ -1,0 +1,20 @@
+{
+  "name": "code_arena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basicVideoCall.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start:dev": "webpack serve --open --config webpack.config.js"
+  },
+  "dependencies": {
+    "agora-rtc-sdk-ng": "latest",
+    "webpack": "^5.28.0",
+    "webpack-dev-server": "3.11.2"
+  },
+  "author": "Yellow-Ranger",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
